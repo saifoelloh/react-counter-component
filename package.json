@@ -1,0 +1,13 @@
+{
+  "name": "@saifoelloh/react-counter",
+  "version": "1.0.0",
+  "author": {
+    "name": "Moh Saifoelloh",
+    "email": "saifoelloh@gmail.com"
+  },
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^18.0.0"
+  }
+}
