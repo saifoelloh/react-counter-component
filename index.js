@@ -11,7 +11,7 @@ const Counter = () => {
   );
 };
 
-const CustomCounter = (initialValue = 0, stepper = 1) => {
+const CustomCounter = ({ initialValue = 0, stepper = 1 }) => {
   const [count, setCount] = React.useState(initialValue);
   return (
     <div>
