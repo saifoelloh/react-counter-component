@@ -1,14 +1,28 @@
 {
   "name": "saifoelloh-react-counter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Moh Saifoelloh",
     "email": "saifoelloh@gmail.com"
   },
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saifoelloh/react-counter-component"
+  },
+  "scripts": {
+    "build": "rm -rf dist && NODE_ENV=production babel index.js --out-dir dist --copy-files"
+  },
   "license": "MIT",
   "dependencies": {
     "react": "^18.0.0",
     "react-dom": "^18.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.8",
+    "@babel/polyfill": "^7.12.1",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7"
   }
 }
